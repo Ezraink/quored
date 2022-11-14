@@ -1,0 +1,38 @@
+.SidebarOptions {
+    display: flex;
+    flex-direction:column;
+    background-color:white
+}
+.SidebarOption {
+    display: flex;
+    align-items:center;
+    padding: 10px;
+    cursor: pointer;
+}
+.SidebarOption :hover{
+    color: azure;
+   background-color: palevioletred;
+   border: radius 8px;
+}
+.SidebarOption > img {
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.SidebarOption >p {
+    color :grey;
+    font-weight:400;
+    margin-left: 10px; 
+}
+
+.SidebarOption > .MuiSvdIcon-root {
+    color: grey;
+    font-size: medium;
+    margin-left: 20px;
+}
+.SidebarOption > .text {
+    margin-left: 23px;
+    color: grey;
+    font-weight: 400;
+    font-size: 13px;
+}

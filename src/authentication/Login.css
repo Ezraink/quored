@@ -1,0 +1,54 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+  }
+  
+  .login-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .login-content > img {
+    width: 200px;
+    object-fit: contain;
+    margin: 20px;
+  }
+  
+  .login-content > button {
+    padding: 10px;
+    margin: 50px 0px;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 1.1px;
+    font-family: monospace;
+    cursor: pointer;
+  }
+
+  .login__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .login__desc > h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Cedarville Cursive", cursive;
+  }
+  .login__desc > p {
+    color: gray;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+  }
